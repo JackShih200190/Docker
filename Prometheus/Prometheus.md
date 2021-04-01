@@ -5,6 +5,7 @@
 1. Download ==> https://prometheus.io/download/
 2. 解壓縮
 3. 啟動prometheus.exe
+![image](https://user-images.githubusercontent.com/55253641/113239324-1a346080-92dd-11eb-8568-480f0b3c956a.png)
 ```
 
 ### Linux Install ==> Docker
