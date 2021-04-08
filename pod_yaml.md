@@ -1,4 +1,20 @@
 ### yaml 
+
+```
+# my-first-pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+  labels:
+    app: webserver
+spec:
+  containers:
+  - name: pod-demo
+    image: zxcvbnius/docker-demo
+    ports:
+    - containerPort: 3000
+```
 ```
 apiVersion
 apiVersion 是代表目前 Kubernetes 中該元件的版本號。以上述的例子 Pod 是 v1，而 v1也是目前Kubernetes中核心的版本號。在日後也會陸續看到 betav1, v1alpha1 等版本號，更多 Kubernetes API 的版本號，可至 官網 API versioning查看。
